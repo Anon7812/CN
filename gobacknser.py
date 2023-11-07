@@ -13,3 +13,4 @@ while True:
         receiver_socket.sendto(str(packet_number).encode(), client_address)
         print(f"Received: {packet}, Sent ACK: {packet_number}")
 receiver_socket.close()
+
