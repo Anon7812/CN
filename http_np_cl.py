@@ -16,7 +16,7 @@ conn.close()
 
 # conn = http.client.HTTPSConnection("github.com")
 
-# conn.request("GET", "/Sudeep72/tour")
+# conn.request("GET", "any path")
 
 
 # response = conn.getresponse()
